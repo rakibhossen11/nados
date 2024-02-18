@@ -1,0 +1,135 @@
+main{
+    margin: 0;
+}
+body{
+    width: 1512px;
+    margin: auto;
+}
+/* navbar section css start */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f4e8c9;
+  padding: 40px 100px;
+}
+.logo-bg {
+  background-color: #f2b035;
+  padding: 0px 20px;
+}
+.brand-logo {
+  font-size: 24px;
+}
+.navbar a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 44px;
+  margin-left: 25px;
+}
+/* navbar section css end */
+/* ----------------------------------- */
+/* header section css start */
+.header {
+  background-image: url("./images/header_image.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.header-content {
+  text-align: center;
+  font-size: 150px;
+  color: white;
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white; */
+}
+.header_bottom_content{
+    background: #f4e8c9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header_bottom_content p{
+    font-size: 36px;
+    font-weight: 600;
+}
+.header_bottom_content_file{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* header section css end */
+/* -----------resturaunt section css-------------------- */
+.resturaunt{
+    padding: 25px 220px;
+}
+.resturaunt_title{
+    font-size: 64px;
+}
+.resturaunt_group{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+}
+.resturaunt_item{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.resturaunt_item h6{
+    font-size: 24px;
+}
+.top_left{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+.explore{
+    font-size: 32px;
+    background-color: #35C4BB;
+    border: none;
+    color: white;
+    padding: 8px 32px;
+    border-radius: 46px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.btn_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* -----------resturaunt section css -------------------- */
+/* ------------------------------- */
+/* get app section css start */
+.get_app{
+    padding: 25px 220px 250px;
+}
+.get_app_title{
+    font-size: 64px;
+}
+.apple{
+    margin-top: 60px;
+}
+/* get app section css end */
+/* ------------------------------- */
+/* footer section css start */
+footer{
+    background-color: #F4E8C9;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+footer p{
+    font-size: 36px;
+}
+footer div{
+    display: flex;
+    justify-content: baseline;
+}
+/* footer section css end */
