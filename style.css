@@ -103,6 +103,23 @@ body{
     align-items: center;
 }
 /* -----------resturaunt section css -------------------- */
+/* -----------Top rated section css -------------------- */
+.top_rated_section{
+    background-color: #F4E8C9;
+    padding: 20px 220px;
+}
+.top_rated_group{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.top_right{
+   padding: 10px;
+}
+.top_rated_left{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+/* -----------Top rated section css -------------------- */
 /* ------------------------------- */
 /* get app section css start */
 .get_app{

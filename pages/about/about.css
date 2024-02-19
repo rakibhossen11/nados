@@ -1,0 +1,53 @@
+/* navbar section css start */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f4e8c9;
+    padding: 10px 20px;
+  }
+  .logo-bg {
+    background-color: #f2b035;
+    padding: 0px 20px;
+  }
+  .brand-logo {
+    font-size: 24px;
+  }
+  .navbar a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 24px;
+    margin-left: 25px;
+  }
+  /* navbar section css end */
+
+/* about us banner */
+
+/* about us banner */
+.aboutus{
+    padding: 20px 220px;
+}
+.about_content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 20px;
+}
+
+  /* footer section css start */
+footer{
+    background-color: #F4E8C9;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+footer p{
+    font-size: 36px;
+}
+footer div{
+    display: flex;
+    justify-content: baseline;
+}
+/* footer section css end */
